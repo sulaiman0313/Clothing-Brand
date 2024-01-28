@@ -64,17 +64,16 @@ span{
 .mid{
     border: 1px solid;
     height: 89.5vh;
-
 }
 .left{
-    background: grey;
+    background: rgb(206, 194, 194);
     height: 89vh;
     width: 70%;
     display: flex;
     justify-content: center;
 }
 .blank{
-    background: #F4E04D;
+    background: #F7CB15;
     height: 60vh;
     width: 40%;
 }
