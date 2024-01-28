@@ -62,32 +62,19 @@ span{
     font-size: 15px;
 }
 .mid{
-    /* border: 1px solid; */
-    height: 635px;
-    width: 60%;
-    background: gray;
-    display: flex;
-    justify-content: center;
-   
+    border: 1px solid;
+    height: 89.5vh;
 
 }
-.blank-design{
-    /* border: 1px solid; */
-    width: 50%;
-    height: 70vh;
-    background: #F1D302;
-    
+.left{
+    background: grey;
+    height: 89vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
-.blank-design h2{
-    margin-left: -190px;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 100px;
-    color: white;
-    margin-top: 50px;
-   
-}
-.blank-design h3{
-    margin-left: 30px;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 100px;
+.blank{
+    background: #F4E04D;
+    height: 60vh;
+    width: 40%;
 }
