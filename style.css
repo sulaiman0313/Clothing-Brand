@@ -159,9 +159,12 @@ span{
     font-size: 25px;
 }
 .login{
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-left: 350px;
     margin-top: 20px;
+    position: fixed;
+    right: 60px;
+    
 }
 .login a {
     font-size: 30px;
