@@ -82,13 +82,13 @@ span{
 .right{
     /* border: 1px solid; */
     width: 60%;
-    background: #6d6d6d;
+    background: #BEB7A4;
     display: flex;
 }
 .right img{
-    margin-left: -450px;
+    margin-left: -300px;
     height: 700px;
-    width: 600px;
+    width: 500px;
     margin-top: -70px;
 }
 .blank h2{
@@ -164,11 +164,60 @@ span{
     margin-top: 20px;
     position: fixed;
     right: 60px;
-    
+    background: #fff;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
 }
 .login a {
     font-size: 30px;
     color: #0077ff;
     text-decoration: none;
     
+    
+}
+.login:hover{
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+}
+.man-hoody{
+    margin-top: 160px;
+}
+.top-texts{
+    /* border: 1px solid; */
+    width: 100%;
+    position: fixed;
+    left: 990px;
+}
+.top-texts h3{
+    word-spacing: 10px;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-left: -50px;
+    font-weight: 400;
+}
+.top-texts h4{
+    
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin-left: -50px;
+    font-weight: 360;
+}
+.arrow{
+    margin-top: 16px;
+    list-style: none;
+    margin-left: -47px;
+}
+.arrow a{
+    text-decoration: none;
+    color: rgb(255, 43, 5);
+    font-weight: 100;
+}
+.arrow a .ri-arrow-right-line{
+    margin-left: 10px;
 }
