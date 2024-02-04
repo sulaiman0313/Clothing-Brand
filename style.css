@@ -95,13 +95,15 @@ span{
     margin-top: 50px;
     margin-left: -150px;
     font-size: 100px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
 }
 .blank h3{
     margin-top: 40px;
     margin-left: -60px;
     font-size: 100px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
 }
 .buttons{
     border: 1px solid;
@@ -121,6 +123,12 @@ span{
     background: black;
     color: aliceblue;
     border-radius: 50%;
+    transition: width 1s, height 1s ease-in-out;
+}
+.buttons button:hover{
+    transition: width 1s, height 1s ease-in-out;
+    height: 90px;
+    width: 90px;
 }
 .number-char{
     color: #DA4167;
@@ -219,5 +227,5 @@ span{
     font-weight: 100;
 }
 .arrow a .ri-arrow-right-line{
-    margin-left: 10px;
+    margin-left: 1px;
 }
