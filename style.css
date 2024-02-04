@@ -199,6 +199,8 @@ span{
     width: 100%;
     position: fixed;
     left: 990px;
+    background: #DA4167;
+    height: 20%;
 }
 .top-texts h3{
     word-spacing: 10px;
@@ -227,5 +229,6 @@ span{
     font-weight: 100;
 }
 .arrow a .ri-arrow-right-line{
-    margin-left: 1px;
+    margin-left: 10px;
+    color: #000000;
 }
