@@ -231,8 +231,9 @@ span{
 .arrow a .ri-arrow-right-line{
     margin-left: 10px;
     color: #000000;
-}.last{
-    border: 1px solid;
+}
+.last{
+    /* border: 1px solid; */
     width: 77%;
     height: 40vh;
     margin-top: 350px;
@@ -240,12 +241,97 @@ span{
     display: flex;
 }
 .scroll{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 40%;
     background: #2E4057;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scroll h3{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #eaeaec;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.scroll h4{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #eaeaec;
+    font-weight: 300;
 }
 .suit{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 60%;
+    background: #fff;
    
+}
+.scroll li{
+    list-style: none;
+    margin-top: 10px;
+}
+.scroll li a{
+    text-decoration: none;
+    color: #eaeaec;
+    font-size: 29px;
+    
+}
+.content-text{
+   
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.content-text h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.content-text h4{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.content-text h5{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 8px;
+}
+.pricing{
+    margin-left: 30px;
+    display: flex;
+    margin-top: 18px;
+    
+}
+.pricing p{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.pricing p strike{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20px;
+    color: #DA4167;
+}
+.view{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.view li a{
+    list-style: none;
+    text-decoration: none;
+    color: #006eff;
+    font-size: 20px;
+}
+.view li{
+    list-style: none;
+  
+}
+.view .ri-arrow-right-line{
+    color: #DA4167;
 }
