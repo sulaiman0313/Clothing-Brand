@@ -231,4 +231,21 @@ span{
 .arrow a .ri-arrow-right-line{
     margin-left: 10px;
     color: #000000;
+}.last{
+    border: 1px solid;
+    width: 77%;
+    height: 40vh;
+    margin-top: 350px;
+    margin-left: -100px;
+    display: flex;
+}
+.scroll{
+    border: 1px solid red;
+    width: 40%;
+    background: #2E4057;
+}
+.suit{
+    border: 1px solid red;
+    width: 60%;
+   
 }
