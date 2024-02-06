@@ -89,7 +89,7 @@ span{
     margin-left: -300px;
     height: 700px;
     width: 500px;
-    margin-top: -70px;
+   
 }
 .blank h2{
     margin-top: 50px;
@@ -179,6 +179,7 @@ span{
     justify-content: center;
     border-radius: 10px;
     transition: all 0.4s ease-in-out;
+   
 }
 .login a {
     font-size: 30px;
@@ -193,6 +194,7 @@ span{
 }
 .man-hoody{
     margin-top: 160px;
+   
 }
 .top-texts{
     /* border: 1px solid; */
@@ -334,4 +336,5 @@ span{
 }
 .view .ri-arrow-right-line{
     color: #DA4167;
+    cursor: pointer;
 }
